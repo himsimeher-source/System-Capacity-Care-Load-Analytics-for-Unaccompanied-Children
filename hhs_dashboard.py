@@ -75,7 +75,7 @@ def load_data(file_path):
         return pd.DataFrame()
 
 
-FILE_PATH = r"C:\Users\Lenovo\HHS_Unaccompanied_Alien_Children_Program (1).csv"
+FILE_PATH = "HHS_Unaccompanied_Alien_Children_Program (1).csv"
 
 df = load_data(FILE_PATH)
 
